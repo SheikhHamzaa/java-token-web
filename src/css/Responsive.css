@@ -1,0 +1,552 @@
+@media screen and (max-width: 1200px) {
+    header .right {
+      margin-right: 0px;
+    }
+  }
+  @media screen and (max-width: 991px) {
+    header {
+      margin-top: 20px;
+      padding-inline: 20px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+    }
+    header .right {
+      display: none;
+    }
+    header .mobile-nav {
+      display: block;
+      position: fixed;
+      width: 100vw;
+      height: 100vh;
+      background: #222222;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      z-index: 9999;
+      transform: translate(100%);
+      transition: transform 0.5s linear;
+      padding: 20px;
+    }
+    header .hamburger-mobile {
+      display: block;
+    }
+    header .hamburger-mobile ul li svg {
+      font-size: 30px;
+      color: #fffafa;
+      cursor: pointer;
+    }
+    header .mobile-nav.active {
+      transform: translate(0);
+    }
+    header .mobile-nav .one {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header .mobile-nav .two {
+      margin-top: 36px;
+      height: calc(100vh - 93.64px);
+      display: flex;
+      justify-content: center;
+      align-items: start;
+    }
+    header .mobile-nav .two .btn-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+    }
+    header .mobile-nav .two .btn-wrapper button {
+      padding: 6px 30px;
+      border-radius: 49px;
+      border: 2px solid #ff0000;
+      box-shadow: 0px 8px 10px 0px #ff000080;
+      background-color: #222222;
+      color: #fff;
+      font-family: "ClashDisplay";
+      font-size: 24px;
+      cursor: pointer;
+    }
+    header .mobile-nav .one .one-right svg {
+      font-size: 30px;
+      color: #000;
+      cursor: pointer;
+    }
+    header .mobile-nav .two ul li {
+      text-align: center;
+      font-size: 20px;
+      color: #fff;
+      font-weight: 600;
+      margin-bottom: 0;
+      margin-top: 20px;
+      font-family: "poppins", sans-serif;
+    }
+    .sec-1 .container {
+      flex-direction: column;
+      padding-inline: 0px;
+      gap: 40px;
+      padding-top: 160px;
+    }
+    .sec-1 .container .left {
+      padding-inline: 40px;
+      margin-bottom: 0;
+    }
+    .sec-1 .container .left .bannerBeans {
+      display: none;
+    }
+    .sec-1 .container .right .img-con .linear-bg {
+      width: 80%;
+      top: 20px;
+      right: 0;
+    }
+  
+   
+    .sec-3 {
+      margin-top: 80px;
+    }
+    .sec-2 .container {
+      flex-direction: column;
+      gap: 40px;
+      padding: 0;
+    }
+    .sec-2 .container .left {
+      padding-inline: 40px;
+    }
+    .sec-2 .container .left .card h2 {
+      font-size: 50px;
+      margin-bottom: 15px;
+    }
+    .sec-2 .container .left .card p {
+      line-height: 30px;
+    }
+    .sec-2 .container .left .card ul li {
+      line-height: 30px;
+    }
+  
+    .sec-3 .container {
+      flex-direction: column-reverse;
+      padding-inline: 40px;
+      gap: 100px;
+    }
+    .sec-3 .container .right h2 {
+      font-size: 50px;
+    }
+    .sec-4 .container {
+      flex-direction: column;
+      padding-inline: 0px;
+    }
+    .sec-4 .container .left {
+      padding-inline: 40px;
+    }
+    .sec-4 .container .left .title {
+      font-size: 50px;
+      margin-bottom: 15px;
+    }
+    .sec-5 .top-con {
+      flex-direction: column;
+      gap: 20px;
+      padding-inline: 40px;
+      align-items: start;
+      margin-bottom: 50px;
+    }
+    .sec-5 .container {
+      flex-direction: column-reverse;
+      gap: 135px;
+      margin-bottom: 100px;
+    }
+    .sec-5 .container .right .wrapper {
+      justify-content: start;
+      margin-left: 40px;
+    }
+    .sec-5 .top-con .right .one svg {
+      display: none;
+    }
+    .sec-5 .top-con h2 {
+      font-size: 50px;
+    }
+  
+    .sec-6 {
+      padding-inline: 20px;
+    }
+    .sec-6 h2 {
+      font-size: 50px;
+    }
+    .sideImges .right {
+      display: none;
+    }
+    .Faq-sec h2 {
+      font-size: 50px;
+      margin-bottom: 30px;
+    }
+    footer .up .center {
+      padding: 20px 0px;
+    }
+    footer .up .footerBeanLeft {
+      display: none;
+    }
+    footer .up .card h2 {
+      font-size: 50px;
+    }
+    .sideImges {
+      margin-bottom: 200px;
+    }
+  
+    footer .up .card {
+      width: 100%;
+      max-width: none;
+    
+    }
+    footer .up .bottom img {
+      width: 50%;
+    }
+    footer .down {
+      padding-inline: 40px;
+    }
+    .contact-sec .box {
+      flex-direction: column;
+      gap: 50px;
+    }
+    .staking-reward {
+      padding-inline: 40px;
+      margin-bottom: 30px;
+    }
+    .staking-reward .title {
+      font-size: 50px;
+      margin-bottom: 40px;
+      line-height: 58px;
+    }
+    .staking-reward .card {
+      width: 100%;
+      max-width: none;
+      margin-right: 0;
+      margin-left: 0;
+    }
+    .staking-reward .card.ml {
+      margin-left: 0;
+    }
+    .staking-reward .wrapper {
+      align-items: start;
+    }
+    .platform-feature-sec {
+      padding: 50px 0px 0px 40px;
+    }
+    .platform-feature-sec h2 {
+      font-size: 50px;
+    }
+    .platform-feature-sec .container {
+      flex-direction: column;
+      gap: 50px;
+    }
+    .platform-feature-sec .container .right .img-con .linear-bg-feature {
+      display: none;
+    }
+    .upcoming-event-sec h2 {
+      font-size: 50px;
+    }
+    .upcoming-event-sec {
+      padding-inline: 40px;
+    }
+    .Faq-sec ul {
+      padding-inline: 40px;
+    }
+    .contact-sec {
+      padding-inline: 40px;
+    }
+    .contact-sec .box .left h2 {
+      font-size: 50px;
+      line-height: 58px;
+    }
+    .contact-sec .box {
+      padding: 30px;
+    }
+    .contact-sec .box .left .wrapper-input input {
+      max-width: none;
+    }
+    footer .up {
+      padding-inline: 40px;
+    }
+    .upcoming-event-sec .beans-right {
+      display: none;
+    }
+    .staking-reward .beansLeft {
+      display: none;
+    }
+    .sec-4 .container {
+      padding-bottom: 0;
+    }
+    .linearbg-faq .faq-linear{
+      width: 100%;
+      top: 100px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .contact-sec {
+      padding-inline: 20px;
+      margin-bottom: 30px;
+    }
+    footer .up {
+      padding-inline: 20px;
+    }
+    .contact-sec .box .left h2 {
+      font-size: 35px;
+      line-height: 43px;
+      margin-bottom: 20px;
+    }
+    .contact-sec .box {
+      padding: 20px;
+    }
+    .Faq-sec {
+      padding: 50px 0px 40px 0px;
+    }
+    footer .up .card {
+      align-items: start;
+    }
+    footer .up .card h2 {
+      font-size: 40px;
+    }
+   
+    .sec-1 .container .left {
+      padding-inline: 20px;
+    }
+    .sec-1 .container .left .sub-title1 {
+      font-size: 50px;
+      line-height: 58px;
+    }
+  
+    .sec-5 .container .right .wrapper .one .content p{
+      line-height: 20px;
+      font-size: 10px;
+    }
+    .sec-1 .container .left .btn-sec1 {
+      margin-bottom: 0;
+    }
+    .sec-2 .container .left {
+      padding-inline: 20px;
+    }
+    .sec-3 .container {
+      padding-inline: 20px;
+    }
+    .sec-4 .container .left {
+      padding-inline: 20px;
+    }
+    .sec-5 .top-con {
+      padding-inline: 20px;
+    }
+    .sec-6 {
+      padding-inline: 20px;
+    }
+    .sec-6 h2 {
+      font-size: 35px;
+      margin-bottom: 20px;
+      line-height: 43px;
+    }
+    .sec-6 .grad-ourTeam {
+      width: 100%;
+      top: -200;
+    }
+    .sec-6 .slider-container .wrapper .card {
+      max-width: none;
+      width: 75%;
+      padding: 8px;
+    }
+    .category-btn-prev-next {
+      display: none;
+    }
+    .sideImges .left {
+      width: 80%;
+    }
+    .Faq-sec ul li .one {
+      padding: 22px 0px 22px 0px;
+    }
+  
+ 
+    .Faq-sec ul li .one svg {
+      width: 15px;
+    }
+    .sideImges {
+      margin-bottom: 250px;
+    }
+    .sec-3 .container .right ul li:nth-child(1) {
+      padding: 2px 8px;
+    }
+    .sec-3 .container .right ul li {
+      font-size: 20px;
+      line-height: 28px;
+    }
+    footer .up .card {
+      flex-direction: column;
+      gap: 25px;
+    }
+    footer .up .card h2 {
+      font-size: 35px;
+      line-height: 35px;
+    }
+    footer .up .card .subscribe-con input {
+      width: 100%;
+    }
+    footer .up .center .subscribe-con {
+      width: 100%;
+    }
+    footer .down {
+      padding-inline: 20px;
+    }
+    footer .down .one-up {
+      flex-direction: column;
+      align-items: start;
+      gap: 20px;
+    }
+    footer .down .one-up .right ul {
+      flex-direction: column;
+    }
+    footer .down .one-down {
+      flex-direction: column;
+      align-items: start;
+      gap: 20px;
+    }
+    footer .up .bottom img {
+      width: 80%;
+    }
+    .staking-reward {
+      padding-inline: 20px;
+    }
+    .staking-reward .title {
+      font-size: 40px;
+      margin-bottom: 20px;
+      line-height: 48px;
+    }
+    .staking-reward .card {
+      margin-bottom: 20px;
+      padding: 12px;
+    }
+    .sec-4 .container .left .title {
+      font-size: 40px;
+    }
+    .sec-4 .container .left .card {
+      padding: 12px;
+    }
+    .sec-2 .container .left .card h2 {
+      font-size: 40px;
+      line-height: 48px;
+    }
+    .sec-6 .slider-container .wrapper {
+      padding-left: 0px;
+    }
+    .sec-6 .slider-container .wrapper img {
+      width: 80%;
+    }
+    .platform-feature-sec {
+      padding: 50px 0px 0px 20px;
+    }
+    .sec-6 {
+      margin-bottom: 20px;
+    }
+    .platform-feature-sec h2 {
+      margin-bottom: 20px;
+      font-size: 40px;
+      line-height: 48px;
+    }
+    .platform-feature-sec .container .left .card {
+      padding: 12px;
+    }
+
+    .platform-feature-sec .container .right .img-con .linear-bg-feature {
+      display: block;
+    }
+    .upcoming-event-sec {
+      padding-inline: 20px;
+      margin-bottom: 50px;
+    }
+    .upcoming-event-sec h2 {
+      font-size: 40px;
+      line-height: 48px;
+    }
+    .upcoming-event-sec .wrapper {
+      padding-right: 0px;
+      width: 85% !important ;
+      margin-inline: auto;
+    }
+  
+    .upcoming-event-sec .wrapper .card {
+      padding: 8px;
+    }
+    .Faq-sec ul {
+      padding-inline: 20px;
+    }
+    .sec-4 .container .left .card h2 {
+      font-size: 35px;
+      line-height: 35px;
+      margin-bottom: 12px;
+    }
+    .sec-4 .container .left .card p {
+      line-height: 25px;
+    }
+    .sec-5 .beanRight {
+      position: absolute;
+      right: -80px;
+      bottom: -80px;
+    }
+    .sec-5 .beanRight img {
+      width: 70%;
+    }
+    .staking-reward .beansLeft {
+      bottom: -230px;
+    }
+    .staking-reward .beansLeft img {
+      width: 70%;
+    }
+    .staking-reward .wrapper button {
+      font-size: 22px;
+    }
+    .upcoming-event-sec .wrapper .card {
+      opacity: 1 ;
+      transform: translateY(0);
+    }
+    
+  }
+  @media screen and (max-width: 420px) {
+    .sec-1 .container .left .title {
+      font-size: 30px;
+    }
+    .sec-1 .container .left .btn-sec1 {
+      font-size: 20px;
+      padding: 10px 20px;
+      line-height: 20px;
+    }
+    .sec-1 .container .left .sub-title1 {
+      font-size: 40px;
+      line-height: 40px;
+    }
+    .sec-1 .container .left .sub-title2 {
+      font-size: 20px;
+      line-height: 28px;
+      margin-bottom: 20px;
+    }
+    .sec-2 .container .left .card h2 {
+      font-size: 40px;
+      line-height: 38px;
+    }
+    .sec-4 .container .left .title {
+      font-size: 40px;
+    }
+    .sec-5 .container .right .wrapper {
+      gap: 20px;
+    }
+    footer .down {
+      margin-top: 50px;
+    }
+    .Faq-sec ul li .one p {
+      max-width: 280px;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .sec-1 .container .left .sub-title1 {
+      font-size: 30px;
+      line-height: 38px;
+    }
+  }
+  
